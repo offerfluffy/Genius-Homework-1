@@ -1,0 +1,141 @@
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #ffffff;
+  --color-secondary-light: #4a4a4a;
+  --color-secondary-dark: #000000;
+  --color-brand: #2b7fff;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+
+  cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+/* Links */
+.header-link {
+  color: var(--color-primary-dark);
+}
+
+.header-link:hover {
+  color: var(--color-brand);
+
+  font-weight: 700;
+}
+
+.footer-link {
+  color: var(--color-primary-light);
+
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  color: var(--color-brand);
+}
+
+/* Hero section*/
+.hero-title {
+  color: var(--color-brand);
+
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.hero-text-secondary {
+  color: var(--color-secondary-light);
+
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Section */
+.section-title {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 0.9;
+}
+
+.section-title .capitalize {
+  text-transform: capitalize;
+}
+
+.section-title .accent {
+  color: var(--color-brand);
+}
+
+/* About us section */
+.about-us-text {
+  font-size: 22px;
+  line-height: 1.73;
+}
+
+.about-us-text .capitalize {
+  text-transform: capitalize;
+}
+
+/* Our procedures section */
+.our-procedures-list {
+  color: var(--color-primary-light);
+}
+
+.our-procedures-item {
+  font-size: 22px;
+}
+
+/* Why us section */
+.why-us-list {
+  color: var(--color-secondary-dark);
+}
+
+.why-us-item {
+  line-height: 1.3;
+}
+
+/* Footer */
+.address-text {
+  color: var(--color-secondary-light);
+
+  font-size: 13px;
+  font-style: normal;
+}
