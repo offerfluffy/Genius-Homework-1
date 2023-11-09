@@ -114,6 +114,10 @@ ul {
   text-transform: capitalize;
 }
 
+.about-us-text .bold {
+  font-weight: 600;
+}
+
 /* Our procedures section */
 .our-procedures-list {
   color: var(--color-primary-light);
