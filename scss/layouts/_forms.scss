@@ -1,0 +1,30 @@
+.form {
+  &__field {
+    margin-bottom: 24px;
+  }
+
+  &__input {
+    color: var(--color-primary-light);
+    padding: 18px 32px;
+    background-color: transparent;
+    border: 2px solid var(--color-secondary-light);
+    border-radius: 32px;
+    width: 100%;
+    max-width: 310px;
+    height: 100%;
+    height: 52px;
+  }
+
+  &__input::placeholder {
+    color: var(--color-primary-light);
+    font-size: 13px;
+  }
+
+  &__politic_text {
+    color: var(--color-secondary-light);
+    font-size: 12px;
+    width: 100%;
+    max-width: 213px;
+    text-align: center;
+  }
+}

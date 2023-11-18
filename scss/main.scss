@@ -1,0 +1,40 @@
+@import "./utils/variables";
+
+@import "./base";
+
+@import "./utils/utils";
+
+@import "./utils/texts";
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@import "./components/buttons";
+
+@import "./components/links";
+
+@import "./layouts/forms";
+
+@import "./layouts/section";
+
+@import "./layouts/header";
+
+@import "./layouts/hero-section";
+
+@import "./components/custom-shape-devider";
+
+@import "./layouts/about-us-section";
+
+@import "./layouts/our-procedures-section";
+
+@import "./layouts/why-us-section";
+
+@import "./layouts/contacts-section";
+
+@import "./layouts/footer";
+
+@import "./layouts/modal";

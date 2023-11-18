@@ -1,0 +1,78 @@
+.about-us-section {
+  padding: 63px 0 88px;
+
+  &__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  &__content {
+    max-width: 709px;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 529px;
+
+    text-align: initial;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 1.73;
+  }
+
+  &__text:nth-child(2) {
+    max-width: 670px;
+    margin-bottom: 40px;
+  }
+
+  &__text:nth-child(3) {
+    max-width: 780px;
+  }
+
+  &__images {
+    position: relative;
+    width: 499px;
+    height: 695px;
+  }
+
+  &__image {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px #a8c6f533;
+  }
+
+  &__image:nth-child(1) {
+    top: 0;
+    left: 0;
+  }
+
+  &__image:nth-child(2) {
+    bottom: 0;
+    right: 0;
+  }
+
+  &__star {
+    position: absolute;
+  }
+
+  &__star:nth-child(3) {
+    top: 350px;
+    left: 130px;
+  }
+
+  &__star:nth-child(4) {
+    top: 50px;
+    right: 0;
+  }
+
+  &__star:nth-child(5) {
+    top: 250px;
+    right: 32px;
+  }
+}

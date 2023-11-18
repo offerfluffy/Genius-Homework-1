@@ -1,0 +1,52 @@
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  padding: 16px 32px;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+
+.slider-button {
+  width: 44px;
+  height: 44px;
+  border: 0.77px solid var(--color-primary-dark);
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  fill: var(--color-primary-dark);
+}
+
+.slider-button-right {
+  transform: rotateY(180deg);
+}
+
+.slider-button:hover {
+  background-color: var(--color-brand);
+  border: var(--color-brand);
+  fill: var(--color-primary-light);
+}
+
+.modal__button_close {
+  position: absolute;
+  right: 42px;
+  top: 42px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  color: var(--color-brand);
+}

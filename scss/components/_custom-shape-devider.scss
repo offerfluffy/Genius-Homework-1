@@ -1,0 +1,35 @@
+.custom-shape-divider-top {
+  position: absolute;
+  bottom: 245px;
+  left: 0;
+  width: 100%;
+}
+
+.custom-shape-divider-top svg {
+  position: relative;
+  width: calc(100% + 1.3px);
+  height: 129px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top .shape-fill {
+  fill: var(--color-primary-light);
+}
+
+.custom-shape-divider-bottom {
+  position: absolute;
+  top: 1303px;
+  left: 0;
+  width: 100%;
+}
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg) rotateX(180deg);
+}
+
+.custom-shape-divider-bottom .shape-fill {
+  fill: rgba(43, 127, 255, 0.2);
+}

@@ -1,0 +1,80 @@
+.footer {
+  position: relative;
+
+  background-color: var(--color-primary-dark);
+  background-image: url(/images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &::before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+    content: "";
+
+    background-image: url(/images/footer-bootles-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 278px;
+    height: 170px;
+  }
+
+  &__logo {
+    align-self: start;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 0px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 186px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  &__address_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  &__address_icon_list {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__address_icon {
+    fill: var(--color-primary-light);
+    transition: fill 0.3s;
+  }
+
+  &__address_icon:hover {
+    fill: var(--color-brand);
+  }
+
+  &__address_text {
+    color: var(--color-secondary-light);
+    font-size: 13px;
+    font-style: normal;
+  }
+
+  &__politic_content_wrapper {
+    margin-bottom: 116px;
+  }
+}

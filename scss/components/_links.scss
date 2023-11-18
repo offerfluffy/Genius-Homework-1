@@ -1,0 +1,28 @@
+.header__link {
+  color: var(--color-primary-dark);
+  transition: color 0.3s;
+}
+
+.header__link:hover {
+  color: var(--color-brand);
+}
+
+.footer__link {
+  color: var(--color-primary-light);
+  transition: color 0.3s;
+  font-size: 16px;
+}
+
+.footer__link:hover {
+  color: var(--color-brand);
+}
+
+.form__link {
+  color: var(--color-secondary-light);
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.form__link:hover {
+  color: var(--color-brand);
+}
